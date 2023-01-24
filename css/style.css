@@ -339,6 +339,9 @@ color: var(--text-color);
     padding-bottom: 100px;
 }
 
+.web {
+}
+
 .footer-logo {
     font-family: 'Raleway';
 font-weight: 800;
@@ -350,6 +353,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
 margin-bottom: 16px;
+margin-left: 156px;
 }
 
 .footer-text {
@@ -359,6 +363,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 max-width: 264px;
 display: inline-block;
+margin-left: 156px;
 }
 
 .filter {
