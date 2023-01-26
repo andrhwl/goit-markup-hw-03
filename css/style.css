@@ -24,7 +24,7 @@ img {
   height: auto;
 }
 body {
-  background-color: var(--white-color);
+  
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 
@@ -49,11 +49,7 @@ body {
   .header {
     padding-bottom: 24px;
     padding-top: 24px;
-    border-bottom: 1px solid #e7e9fc;
     background: #FFFFFF;
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px 
-rgba(46, 47, 66, 0.08);
   }
   
   .header > .container {
@@ -210,6 +206,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     gap: 24px;
 }
 
+.section-item {
+    max-width: 264px;
+}
+
 .section-name {
 font-weight: 500;
 font-size: 20px;
@@ -261,12 +261,12 @@ color: var(--text-color);
 .article {
     background: #E5E5E5;
     padding-bottom: 120px;
-    padding-top: 120px;
+    
 }
 
 
 .article-name {
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -303,7 +303,7 @@ flex-grow: 0;
 }
 
 .main-tag {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -351,11 +351,11 @@ color: var(--text-color);
 
 .footer {
     background-color: var(--title-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-wrap {
-    padding-top: 100px;
-        padding-bottom: 100px;
 }
 
 .web {
@@ -385,7 +385,8 @@ margin: 0px;
 }
 
 .filter {
-    background: #F4F4FD;
+padding-top: 96px;
+padding-bottom: 120px;
 }
 
 .filter-btn-list {
@@ -393,7 +394,6 @@ margin: 0px;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
     align-items: center;
     display: flex;
 }
@@ -441,18 +441,17 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     display: flex;
     flex-basis: calc((100 - 48px) / 3);
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .filter-item {
 }
 .filter-img {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
 background-blend-mode: soft-light, normal;
 mix-blend-mode: normal;
 border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding-left: 16px;
 }
 
 .filter-wrap {
@@ -461,7 +460,6 @@ padding-bottom: 32px;
 border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding-left: 16px;
     margin: 0;
 }
 
